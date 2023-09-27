@@ -1,0 +1,12 @@
+.benefits {
+  margin-top: 24px;
+
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+
+  &__benefit {
+    gap: 5px;
+    display: flex;
+  }
+}
