@@ -13,7 +13,7 @@ const BenefitCardBenefits: FC<BenefitCardBenefitsProps> = ({benefits}) => {
   return (
     <div className={styles.benefits}>
       {benefits.map(benefit =>
-        (<p className={styles.benefits__benefit}>
+        (<p key={benefit} className={styles.benefits__benefit}>
           <Image src={benefitIcon} alt={'иконка преимущества'} width={24} height={24}/>
           {benefit}
         </p>)
