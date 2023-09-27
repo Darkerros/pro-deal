@@ -1,0 +1,61 @@
+.header {
+  top: 0;
+  left: 0;
+  position: sticky;
+
+  padding: 12px 120px;
+
+  background: white;
+
+  &__nav {
+    margin: 0 auto;
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__navContainer {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+  }
+
+  &__logo {
+    color: #2C2D2E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+  }
+
+  &__tel {
+    color: #2C2D2E;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  &__workTime {
+    color: #919399;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+}
