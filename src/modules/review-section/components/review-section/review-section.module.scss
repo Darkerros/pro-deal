@@ -1,23 +1,6 @@
 .reviewSection {
-  padding: 120px;
-
-  &__content {
-    margin: 0 auto;
-    max-width: 1200px;
-  }
-
-  &__title {
-    color: #2C2D2E;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%;
-  }
 
   &__comentsList {
-    margin-top: 40px;
-
     gap: 32px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
